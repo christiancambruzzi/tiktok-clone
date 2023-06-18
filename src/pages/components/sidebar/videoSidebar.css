@@ -1,0 +1,16 @@
+.videoSibar{
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  color: #ffffff;
+}
+
+.videoSidebar-options{
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.videoSidebar-options:hover{
+  transform: scale(1.4);
+}
