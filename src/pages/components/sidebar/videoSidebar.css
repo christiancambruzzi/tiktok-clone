@@ -1,6 +1,6 @@
 .videoSibar{
   position: absolute;
-  top: 30%;
+  top: 10%;
   right: 10px;
   color: #ffffff;
 }
@@ -13,4 +13,12 @@
 
 .videoSidebar-options:hover{
   transform: scale(1.4);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .videoSibar{
+    top: 10%;
+  }
+
 }
